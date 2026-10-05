@@ -6,10 +6,12 @@
 [![Platform](https://img.shields.io/badge/platform-Cloudflare%20Workers-orange.svg)]()
 [![License](https://img.shields.io/badge/license-Personal%20Use-lightgrey.svg)]()
 
-特别说明：v1.8.7 版本在高速下载时更保守。对于单用户极限下载，v1.8.6 版本可能略微激进一点；但对于多人长期使用，v1.8.7 版本更稳。
+###特别说明：
+v1.8.7 版本在高速下载时更保守。对于单用户极限下载，v1.8.6 版本可能略微激进一点；但对于多人长期使用，v1.8.7 版本更稳。
 
 **v1.8.8 Beta版**
-Beta版主要更新了三档参数包。这套参数是基于网络工程理论推导 + CloudFlare Workers 限制验证的结果。与 v1.8.7 版配置相比：
+Beta版主要更新了三档参数包。这套参数是基于网络工程理论推导 + CloudFlare Workers 限制验证的结果。
+与 v1.8.7 版配置相比：
 - **大部分参数做了微调**（更符合 BDP / Little's Law）
 - **差异在多数场景下是"理论差异"而非"感知差异"**
 - 如果你不想折腾，**保持 v1.8.8 原配置也完全可以**
