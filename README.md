@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/badge/platform-Cloudflare%20Workers-orange.svg)]()
 [![License](https://img.shields.io/badge/license-Personal%20Use-lightgrey.svg)]()
 
-###特别说明：
+### 特别说明：
 v1.8.7 版本在高速下载时更保守。对于单用户极限下载，v1.8.6 版本可能略微激进一点；但对于多人长期使用，v1.8.7 版本更稳。
 
 **v1.8.8 Beta版**
